@@ -1,0 +1,360 @@
+﻿1. date and time：
+dio@dio-virtual-machine:~$ date
+2020年 05月 15日 星期五 17:43:05 CST
+
+
+2. os version： 
+Ubuntu 19.04 \n \l
+
+
+3. hardware information :
+	cpuinfo:
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 158
+model name	: Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz
+stepping	: 9
+microcode	: 0x8e
+cpu MHz		: 2496.000
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid mpx rdseed adx smap clflushopt xsaveopt xsavec xsaves arat flush_l1d arch_capabilities
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 4992.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 43 bits physical, 48 bits virtual
+power management:
+
+meminfo:
+MemTotal:        4012628 kB
+MemFree:         1174976 kB
+MemAvailable:    2503576 kB
+Buffers:          209376 kB
+Cached:          1249020 kB
+SwapCached:            0 kB
+Active:          1558820 kB
+Inactive:         691656 kB
+Active(anon):     791532 kB
+Inactive(anon):     1776 kB
+Active(file):     767288 kB
+Inactive(file):   689880 kB
+Unevictable:          32 kB
+Mlocked:              32 kB
+SwapTotal:        969960 kB
+SwapFree:         969960 kB
+Dirty:               828 kB
+Writeback:             0 kB
+AnonPages:        792136 kB
+Mapped:           334352 kB
+Shmem:              3120 kB
+KReclaimable:     152808 kB
+Slab:             269008 kB
+SReclaimable:     152808 kB
+SUnreclaim:       116200 kB
+KernelStack:       10608 kB
+PageTables:        14100 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     2976272 kB
+Committed_AS:    4315672 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+Percpu:            89600 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      233280 kB
+DirectMap2M:     3960832 kB
+DirectMap1G:     2097152 kB
+
+disk info:
+isk /dev/loop0：48.3 MiB，50642944 字节，98912 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+
+
+Disk /dev/loop1：956 KiB，978944 字节，1912 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+
+
+Disk /dev/loop2：14.8 MiB，15462400 字节，30200 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+
+
+Disk /dev/loop3：3.7 MiB，3825664 字节，7472 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+
+
+Disk /dev/loop4：3.7 MiB，3862528 字节，7544 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+
+
+Disk /dev/loop5：14.8 MiB，15466496 字节，30208 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+
+
+Disk /dev/loop6：91.4 MiB，95805440 字节，187120 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+
+
+Disk /dev/loop7：149.9 MiB，157192192 字节，307016 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+
+
+Disk /dev/sda：20 GiB，21474836480 字节，41943040 个扇区
+Disk model: VMware Virtual S
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+磁盘标签类型：dos
+磁盘标识符：0x1204677f
+
+设备       启动  起点     末尾     扇区 大小 Id 类型
+/dev/sda1  *     2048 41940991 41938944  20G 83 Linux
+
+
+Disk /dev/loop8：44.9 MiB，47063040 字节，91920 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+
+
+Disk /dev/loop9：956 KiB，978944 字节，1912 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+
+
+Disk /dev/loop10：956 KiB，978944 字节，1912 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+
+
+Disk /dev/loop11：4.3 MiB，4464640 字节，8720 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+
+
+Disk /dev/loop12：160.2 MiB，167931904 字节，327992 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+
+
+Disk /dev/loop13：55 MiB，57614336 字节，112528 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+
+
+Disk /dev/loop14：55 MiB，57618432 字节，112536 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+
+
+Disk /dev/loop15：4.2 MiB，4403200 字节，8600 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+
+
+Disk /dev/loop16：93.9 MiB，98484224 字节，192352 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+
+
+Disk /dev/loop17：2.4 MiB，2555904 字节，4992 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+
+
+Disk /dev/loop18：276 KiB，282624 字节，552 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+
+
+Disk /dev/loop19：2.2 MiB，2273280 字节，4440 个扇区
+单元：扇区 / 1 * 512 = 512 字节
+扇区大小(逻辑/物理)：512 字节 / 512 字节
+I/O 大小(最小/最佳)：512 字节 / 512 字节
+
+分区信息：
+文件系统        容量  已用  可用 已用% 挂载点
+udev            1.9G     0  1.9G    0% /dev
+tmpfs           392M  1.9M  391M    1% /run
+/dev/sda1        20G  8.6G   10G   47% /
+tmpfs           2.0G     0  2.0G    0% /dev/shm
+tmpfs           5.0M  4.0K  5.0M    1% /run/lock
+tmpfs           2.0G     0  2.0G    0% /sys/fs/cgroup
+/dev/loop1      1.0M  1.0M     0  100% /snap/gnome-logs/81
+/dev/loop4      3.8M  3.8M     0  100% /snap/gnome-system-monitor/135
+/dev/loop3      3.8M  3.8M     0  100% /snap/gnome-system-monitor/127
+/dev/loop5       15M   15M     0  100% /snap/gnome-characters/495
+/dev/loop0       49M   49M     0  100% /snap/gtk-common-themes/1474
+/dev/loop2       15M   15M     0  100% /snap/gnome-characters/399
+/dev/loop7      150M  150M     0  100% /snap/gnome-3-28-1804/71
+/dev/loop6       92M   92M     0  100% /snap/core/8689
+/dev/loop8       45M   45M     0  100% /snap/gtk-common-themes/1440
+/dev/loop10     1.0M  1.0M     0  100% /snap/gnome-logs/93
+/dev/loop11     4.4M  4.4M     0  100% /snap/gnome-calculator/704
+/dev/loop13      55M   55M     0  100% /snap/core18/1705
+/dev/loop12     161M  161M     0  100% /snap/gnome-3-28-1804/116
+/dev/loop15     4.3M  4.3M     0  100% /snap/gnome-calculator/544
+tmpfs           392M   40K  392M    1% /run/user/1000
+vmhgfs-fuse     421G  316G  106G   75% /mnt/hgfs
+/dev/sr0        2.0G  2.0G     0  100% /media/dio/Ubuntu 19.04 amd64
+/dev/loop16      94M   94M     0  100% /snap/core/9066
+/dev/loop14      55M   55M     0  100% /snap/core18/1754
+/dev/loop9      1.0M  1.0M     0  100% /snap/gnome-logs/100
+/dev/loop17     2.5M  2.5M     0  100% /snap/gnome-calculator/748
+/dev/loop18     384K  384K     0  100% /snap/gnome-characters/539
+/dev/loop19     2.3M  2.3M     0  100% /snap/gnome-system-monitor/145
+
+4. uptime:
+17:47:49 up 8 min,  1 user,  load average: 0.39, 1.36, 0.95
+
+5. services information
+[ + ]  acpid
+ [ + ]  alsa-utils
+ [ + ]  anacron
+ [ + ]  apparmor
+ [ + ]  apport
+ [ + ]  avahi-daemon
+ [ + ]  bluetooth
+ [ - ]  cgroupfs-mount
+ [ - ]  console-setup.sh
+ [ + ]  cron
+ [ + ]  cups
+ [ + ]  cups-browsed
+ [ + ]  dbus
+ [ - ]  dns-clean
+ [ + ]  docker
+ [ + ]  gdm3
+ [ + ]  grub-common
+ [ - ]  hwclock.sh
+ [ - ]  irqbalance
+ [ + ]  kerneloops
+ [ - ]  keyboard-setup.sh
+ [ + ]  kmod
+ [ + ]  network-manager
+ [ + ]  networking
+ [ + ]  openvpn
+ [ - ]  plymouth
+ [ - ]  plymouth-log
+ [ - ]  pppd-dns
+ [ + ]  procps
+ [ - ]  rsync
+ [ + ]  rsyslog
+ [ - ]  saned
+ [ + ]  snort
+ [ - ]  speech-dispatcher
+ [ - ]  spice-vdagent
+ [ + ]  ssh
+ [ + ]  ubuntu-fan
+ [ + ]  udev
+ [ + ]  ufw
+ [ + ]  unattended-upgrades
+ [ - ]  uuidd
+ [ + ]  vmware-tools
+ [ + ]  whoopsie
+ [ - ]  x11-common
+
+6. nic informaiton
+docker0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 172.17.0.1  netmask 255.255.0.0  broadcast 172.17.255.255
+        ether 02:42:02:7f:20:37  txqueuelen 0  (以太网)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+ens33: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.43.128  netmask 255.255.255.0  broadcast 192.168.43.255
+        inet6 fe80::105d:3cf3:48e1:4f1c  prefixlen 64  scopeid 0x20<link>
+        ether 00:0c:29:97:b8:27  txqueuelen 1000  (以太网)
+        RX packets 95775  bytes 133827587 (133.8 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 13442  bytes 1129919 (1.1 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (本地环回)
+        RX packets 696  bytes 58762 (58.7 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 696  bytes 58762 (58.7 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+7. route information
+内核 IP 路由表
+Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+0.0.0.0         192.168.43.2    0.0.0.0         UG        0 0          0 ens33
+169.254.0.0     0.0.0.0         255.255.0.0     U         0 0          0 ens33
+172.17.0.0      0.0.0.0         255.255.0.0     U         0 0          0 docker0
+192.168.43.0    0.0.0.0         255.255.255.0   U         0 0          0 ens33
+
+8. arp information
+5.85.222.35.bc.googleusercontent.com (35.222.85.5) 位于 <incomplete> 在 docker0
+bogon (192.168.43.254) 位于 00:50:56:fe:f3:c7 [ether] 在 ens33
+bogon (192.168.43.2) 位于 00:50:56:f6:dc:24 [ether] 在 ens33
+connectivity-check.ubuntu.com (35.224.99.156) 位于 <incomplete> 在 docker0
+
+
+9. information of process
+太多了不全粘了
+USER        PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root          1  0.4  0.2 101048 10944 ?        -    17:39   0:05 /sbin/init splash
+root          -  0.4    -      -     - -        Ss   17:39   0:05 -
+root          2  0.0  0.0      0     0 ?        -    17:39   0:00 [kthreadd]
+root          -  0.0    -      -     - -        S    17:39   0:00 -
+root          3  0.0  0.0      0     0 ?        -    17:39   0:00 [rcu_gp]
+root          -  0.0    -      -     - -        I<   17:39   0:00 -
+root          4  0.0  0.0      0     0 ?        -    17:39   0:00 [rcu_par_gp]
+root          -  0.0    -      -     - -        I<   17:39   0:00 -
+dio           -  0.0    -      -     - -        Sl   17:41   0:00 -
+dio        2817  0.0  0.2 321940  8472 ?        -    17:41   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.13 /org/gtk/gvfs/exec_spaw/0 HOME=/home/dio LANG=zh_CN.UTF-8 LANGUAGE=zh_CN:zh LOGNAME=dio PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=dio XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 CLUTTER_IM_MODULE=xim DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=2 PWD=/home/dio QT4_IM_MODULE=xim QT_IM_MODULE=xim SESSION_MANAGER=local/dio-virtual-machine:@/tmp/.ICE-unix/1604,unix/dio-virtual-machine:/tmp/.ICE-unix/1604 SHLVL=0 SSH_AGENT_PID=2156 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=dio WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop XDG_MENU_PREFIX=gnome- XDG_SEAT=seat0 XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_ID=1 XDG_SESSION_TYPE=x11 XDG_VTNR=2 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1076 INVOCATION_ID=12de158e36614a6d99075a1984a69bb1 JOURNAL_STREAM=9:49266
+
